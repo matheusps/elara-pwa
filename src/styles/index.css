@@ -1,0 +1,21 @@
+:root {
+  --color-base: #142032;
+  --color-base--contrast: #ffffff;
+  --color-primary: #f71963;
+  --color-primary--contrast: #ffffff;
+
+  --color-stable: #50fa7b;
+  --color-maintenance: #8be9fd;
+  --color-notice: #f1fa8c;
+  --color-incident: #ffb86c;
+  --color-outage:#f55;
+
+}
+
+body {
+  background: var(--color-base);
+  color: var(--color-base--contrast);
+}
+
+@tailwind base;
+@tailwind utilities;
